@@ -1,0 +1,49 @@
+import ./common.chatito
+
+# Ways to request a restaurant within a location (using probability operator)
+# NOTE: 60% of the examples should come from the first sentence, and 40% from the second
+
+%[inform]('training': '100', 'testing': '100')
+    *[20%] ~[trouve] @[type_conso] ~[merci?]
+    *[10%] ~[trouve] @[nom_equipement] ~[merci?]
+    *[10%] ~[trouve] @[equipement] ~[merci?]
+    *[10%]  @[type_conso] ~[svp?]
+    *[10%]  @[nom_equipement] ~[svp?]
+    *[10%]  @[equipement] ~[svp?]
+    *[10%]  @[type_conso]
+    *[10%]  @[nom_equipement]
+    *[10%]  @[equipement]
+
+
+@[type_conso]
+    ~[RAM]
+    ~[CPU]
+    ~[disque]
+    ~[stockage]
+    ~[reseau]
+
+@[nom_equipement]
+    ~[AP08773]
+    ~[AP08772]
+    ~[S00V09957607]
+    ~[S00V09959946]
+    ~[S00VL9953894]
+    ~[S00VL9953895]
+
+@[equipement]
+    ~[Serveur]
+    ~[Appli]
+    ~[Application]
+    ~[CHASSIS]
+    ~[firewall]
+
+
+~[trouve]
+    je cherche
+    trouve moi
+    aide moi à trouver
+    donne moi
+
+~[conso]
+    consommation
+    conso

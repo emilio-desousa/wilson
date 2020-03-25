@@ -1,0 +1,13 @@
+// Ways to say yes
+
+import ./common.chatito
+
+%[remerciement]('training': '50', 'testing': '50')
+    ~[remerciement]
+
+~[remerciement]
+    merci
+    merci beaucoup
+    merci bien
+    ça fait plaisir merci
+    encore merci

@@ -1,0 +1,21 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: fr
+
+pipeline:
+  - name: "WhitespaceTokenizer"
+  - name: "RegexFeaturizer"
+  - name: "CRFEntityExtractor"
+  - name: "EntitySynonymMapper"
+  - name: "CountVectorsFeaturizer"
+  - name: "DIETClassifier"
+  #- name: "MSRTEntityExtractor.MSRTExtractor"
+#export PYTHONPATH=/path_to_your_project_dir/:$PYTHONPATH
+
+# Configuration for Rasa Core.
+# https://rasa.com/docs/rasa/core/policies/
+policies:
+  - name: FallbackPolicy
+  - name: MemoizationPolicy
+  - name: FormPolicy
+  - name: MappingPolicy

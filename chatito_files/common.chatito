@@ -1,0 +1,15 @@
+// Common entities to be imported and reused
+~[bonjour]
+    salut
+    hey
+    bonjour
+
+~[svp]
+    s'il vous plait
+    stp
+    svp
+    s'il te plait
+
+~[merci]
+    merci
+    merci à toi

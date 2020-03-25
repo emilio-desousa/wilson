@@ -1,0 +1,31 @@
+// Ways to say no
+
+import ./common.chatito
+
+%[negatif]('training': '50', 'testing': '50')
+    *[20%] ~[non]
+    ~[non] ~[svp?] ~[pas ok?]
+    ~[svp?] ~[non] ~[pas ok?]
+    *[20%] ~[pas ok]
+
+~[non]
+    no
+    nope
+    non
+    pas vraiment
+    c'est faux
+    incorrecte
+    incorrect
+    pas vraiment non
+
+~[pas ok]
+    ce n'est pas ce que je veux
+    je ne voulais pas ça
+    je voulais pas dire ça
+    ce n'est pas ce que j'ai cherché
+    c'est pas correcte
+    c'est faux
+    c'est pas bon
+    c'est pas ça
+    c'est pas okay
+    ce n'est pas correcte

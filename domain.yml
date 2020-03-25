@@ -1,0 +1,80 @@
+intents:
+  - salutation
+  - adieu
+  - affirmatif
+  - negatif
+  - inform
+  - remerciement
+  - trouver_conso:
+      use_entities: []
+
+entities:
+  - type_conso
+  - equipement
+  - nom_equipement
+
+slots:
+  type_conso:
+    type: unfeaturized
+    auto_fill: false
+  equipement: 
+    type: unfeaturized
+    auto_fill: false
+  nom_equipement:
+    type: unfeaturized
+    auto_fill: false
+  requested_slot:
+    type: unfeaturized
+
+responses:
+  utter_salutation:
+  - text: "Salut!  Comment ça va?"
+
+  utter_ask_type_conso:
+  - text: "quel type de consommation?"
+
+  utter_ask_equipement:
+  - text: "quel equipement?"
+
+  utter_ask_nom_equipement:
+  - text: "quel est le nom de votre équipement?"
+
+  utter_submit:
+    - text: "Tout est bon!"
+
+  utter_noworries:
+    - text: "De rien :)"
+
+  utter_slots_values:
+    - text: "Je vais chercher une machine avec les paramètres suivants:\n
+             - type_conso: {type_conso}\n
+             - equipement: {equipement}\n
+             - nom_equipement: {nom_equipement}\n"
+  
+  utter_wrong_type_conso:
+  - text: "Je ne reconnais pas ce type de consommation?"
+
+  utter_wrong_equipement:
+  - text: "Je ne connais pas ce type d'équipement"
+
+  utter_wrong_nom_equipement:
+  - text: "Je n'ai pas compris de quel équipement vous voullez parler"
+
+  utter_did_that_help:
+  - text: "Est ce que ça vous a aider?"
+
+  utter_ask_continue:
+  - text: "voullez-vous continuer?"
+
+  utter_happy:
+  - text: "Parfait, continuons!"
+
+  utter_adieu:
+  - text: "Au revoir"
+
+forms: 
+  - conso_form
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
