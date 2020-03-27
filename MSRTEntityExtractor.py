@@ -6,9 +6,12 @@ import os
 import requests
 from typing import Any, List, Optional, Text, Dict
 
-from rasa.nlu.constants import MESSAGE_ENTITIES_ATTRIBUTE
+
+from rasa.constants import DOCS_URL_COMPONENTS
+from rasa.nlu.constants import ENTITIES
+
 from rasa.nlu.config import RasaNLUModelConfig
-from rasa.nlu.extractors import EntityExtractor
+
 from rasa.nlu.model import Metadata
 from rasa.nlu.training_data import Message
 
@@ -20,7 +23,7 @@ import traceback
 from rasa.nlu.components import Component
 from rasa.nlu import utils
 from rasa.nlu.model import Metadata
-from rasa.nlu.extractors import EntityExtractor
+from rasa.nlu.extractors.extractor import EntityExtractor
 
 
 logger = logging.getLogger(__name__)
@@ -196,7 +199,7 @@ class MSRTExtractor(Component):
         extracted_entities = self.add_extractor_name(extracted_entities)
 
         message.set(
-            MESSAGE_ENTITIES_ATTRIBUTE,
-            message.get(MESSAGE_ENTITIES_ATTRIBUTE, []) + extracted_entities,
+            ENTITIES,
+            message.get(ENTITIES, []) + extracted_entities,
             add_to_output=True,
         )

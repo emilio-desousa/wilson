@@ -1,0 +1,30 @@
+2020-03-26 10:22:58,533 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-26 10:29:05,625 [INFO ]  Data (nlu-config) for NLU model section changed.
+2020-03-26 10:34:45,614 [INFO ]  Persisted model to '/tmp/tmpu7c6m755/core'
+2020-03-26 10:34:45,663 [INFO ]  Training data stats: 
+	- intent examples: 503 (7 distinct intents)
+	- Found intents: 'salutation', 'affirmatif', 'remerciement', 'adieu', 'trouver_conso', 'inform', 'negatif'
+	- Number of response examples: 0 (0 distinct response)
+	- entity examples: 300 (3 distinct entities)
+	- found entities: 'nom_equipement', 'type_conso', 'equipement'
+
+2020-03-26 10:34:45,671 [INFO ]  Starting to train component WhitespaceTokenizer
+2020-03-26 10:34:45,677 [INFO ]  Finished training component.
+2020-03-26 10:34:45,678 [INFO ]  Starting to train component RegexFeaturizer
+2020-03-26 10:34:45,678 [INFO ]  Finished training component.
+2020-03-26 10:34:45,678 [INFO ]  Starting to train component CRFEntityExtractor
+2020-03-26 10:34:45,754 [INFO ]  Finished training component.
+2020-03-26 10:34:45,754 [INFO ]  Starting to train component EntitySynonymMapper
+2020-03-26 10:34:45,754 [INFO ]  Finished training component.
+2020-03-26 10:34:45,754 [INFO ]  Starting to train component CountVectorsFeaturizer
+2020-03-26 10:34:45,926 [INFO ]  Finished training component.
+2020-03-26 10:34:45,926 [INFO ]  Starting to train component DIETClassifier
+2020-03-26 10:37:01,773 [INFO ]  Finished training.
+2020-03-26 10:37:01,852 [INFO ]  Finished training component.
+2020-03-26 10:37:01,853 [INFO ]  Starting to train component MSRTExtractor
+2020-03-26 10:37:01,853 [INFO ]  Finished training component.
+2020-03-26 10:37:01,896 [INFO ]  Successfully saved model into '/tmp/tmpu7c6m755/nlu'
+2020-03-26 11:15:14,629 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-26 11:15:18,465 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-fr'.
+2020-03-26 11:19:40,225 [INFO ]  Starting Rasa server on http://localhost:5005
+2020-03-26 11:19:44,108 [INFO ]  Added 'SpacyNLP' to component cache. Key 'SpacyNLP-fr'.

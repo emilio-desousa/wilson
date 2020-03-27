@@ -1,0 +1,289 @@
+## intent:adieu
+- chau
+- au revoir merci à toi
+- adieu
+- j'y vais au revoir
+- au revoir
+- je vous reparle plus tard salut
+- adieu merci à toi
+- je vous reparle plus tard adieu
+- j'y vais adios
+- je pars salut
+- a la prochaine au revoir
+- a la prochaine salut
+- je dois y aller bye
+- goodbye
+- merci au revoir
+- bye merci
+- merci adieu
+- adios
+- bye merci à toi
+- chao
+- je te reparle plus tard goodbye
+- je te reparle plus tard adios
+- je pars adios
+- je pars adieu
+- j'y vais chau
+- merci à toi goodbye
+- je dois y aller chao
+- merci à toi adieu
+- merci salut
+- chao merci
+- salut merci à toi
+- je pars au revoir
+- je dois y aller adieu
+- j'y vais salut
+- a la prochaine
+- je vous reparle plus tard chau
+- je te reparle plus tard au revoir
+- je dois y aller goodbye
+- chau merci
+- au revoir merci
+- je pars bye
+- je dois y aller adios
+- a la prochaine bye
+- je te reparle plus tard bye
+- je te reparle plus tard chao
+- j'y vais chao
+- je pars chao
+- chau merci à toi
+- je dois y aller au revoir
+- je dois y aller
+
+## intent:affirmatif
+- d'accord bon affirmatif
+- bon je suis okay avec ça
+- ça semble bon vous m'avez compris correct
+- yep je suis okay avec ça merci à toi
+- ça semble bon c'est ce que je veux oui
+- oui monsieur vous m'avez compris oui
+- ça semble bon
+- correct c'est correct d'accord
+- oui monsieur bon oui monsieur
+- oui je le veux oui
+- ça semble bon vrai merci
+- correct
+- affirmatif c'est ce que je veux oui
+- affirmatif vous m'avez compris ça semble bon
+- vrai c'est bon
+- oui oui monsieur merci à toi
+- oui monsieur
+- affirmatif okay yep
+- je le veux d'accord
+- oui monsieur vrai merci à toi
+- d'accord vous m'avez compris yep
+- affirmatif yep merci à toi
+- je suis okay avec ça c'est correct vrai
+- ça semble bon okay je suis okay avec ça
+- ça semble bon okay oui monsieur
+- ça semble bon c'est bon je suis okay avec ça
+- oui monsieur tu m'as compris d'accord
+- je suis okay avec ça
+- oui
+- je suis okay avec ça vrai merci à toi
+- yep je le veux oui
+- je suis okay avec ça c'est ce que je veux correct
+- correct yep
+- je suis okay avec ça c'est bon correct
+- je suis okay avec ça ça semble bon merci
+- yep tu m'as compris correct
+- correct c'est ce que je veux je suis okay avec ça
+- correct c'est ce que je veux oui monsieur
+- yep je le veux je suis okay avec ça
+- oui monsieur c'est bon affirmatif
+- ça semble bon c'est correct yep
+- correct affirmatif merci à toi
+- affirmatif c'est ce que je veux
+- oui c'est ce que je veux affirmatif
+- oui c'est bon ça semble bon
+- correct bon oui monsieur
+- oui yep merci
+- yep c'est correct ça semble bon
+- ça semble bon stp
+- oui monsieur vous m'avez compris oui monsieur
+
+## intent:inform
+- [S00V2](nom_equipement)
+- donne moi [firewall](equipement)
+- [Application](equipement) stp
+- [firewall](equipement) stp
+- aide moi à trouver [Application](equipement) merci à toi
+- [Application](equipement)
+- [firewall](equipement)
+- aide moi à trouver [S00V2](nom_equipement) merci
+- [AP08773](nom_equipement)
+- [S00V2](nom_equipement) stp
+- donne moi [CHASSIS](equipement)
+- [S00VL9953894](nom_equipement) svp
+- [Appli](equipement)
+- donne moi [AP08772](nom_equipement) merci
+- aide moi à trouver [AP08772](nom_equipement)
+- je cherche [S00VL](nom_equipement) merci à toi
+- aide moi à trouver [S00VL9953894](nom_equipement) merci
+- je cherche [CHASSIS](equipement) merci à toi
+- donne moi [Appli](equipement) merci
+- aide moi à trouver [S00V2](nom_equipement)
+- trouve moi [CHASSIS](equipement) merci à toi
+- je cherche [CHASSIS](equipement) merci
+- [Appli](equipement) stp
+- [CHASSIS](equipement)
+- je cherche [Appli](equipement)
+- je cherche [Serveur](equipement) merci à toi
+- [Appli](equipement) svp
+- je cherche [S00VL9953895](nom_equipement)
+- trouve moi [S00VL9953894](nom_equipement)
+- [CHASSIS](equipement) s'il te plait
+- [S00V2](nom_equipement) s'il te plait
+- [firewall](equipement) s'il te plait
+- aide moi à trouver [Appli](equipement) merci à toi
+- je cherche [S00V2](nom_equipement)
+- trouve moi [AP08773](nom_equipement)
+- [S00VL9953894](nom_equipement)
+- trouve moi [AP08772](nom_equipement)
+- je cherche [AP08772](nom_equipement) merci à toi
+- donne moi [Serveur](equipement)
+- trouve moi [Appli](equipement) merci
+- donne moi [firewall](equipement) merci à toi
+- [Serveur](equipement) stp
+- [S00VL9953895](nom_equipement) s'il te plait
+- je cherche [S00VL](nom_equipement)
+- [S00VL](nom_equipement) svp
+- [S00VL9953895](nom_equipement) stp
+- trouve moi [firewall](equipement) merci
+- je cherche [S00VL9953894](nom_equipement)
+- [AP08773](nom_equipement) s'il te plait
+- je cherche [Application](equipement) merci
+- aide moi à trouver [AP08773](nom_equipement)
+- je cherche [firewall](equipement) merci à toi
+- [S00VL](nom_equipement) s'il te plait
+- trouve moi [S00VL9953894](nom_equipement) merci
+- aide moi à trouver [S00VL9953895](nom_equipement) merci
+- je cherche [Appli](equipement) merci
+- je cherche [AP08772](nom_equipement)
+- donne moi [Appli](equipement) merci à toi
+- aide moi à trouver [AP08773](nom_equipement) merci
+- je cherche [S00V2](nom_equipement) merci à toi
+- aide moi à trouver [S00VL](nom_equipement) merci
+- trouve moi [S00V2](nom_equipement) merci à toi
+- [Appli](equipement) s'il te plait
+- je cherche [Application](equipement) merci à toi
+- trouve moi [Appli](equipement) merci à toi
+- [AP08773](nom_equipement) svp
+
+## intent:negatif
+- pas vraiment non s'il vous plait
+- s'il te plait incorrect ce n'est pas ce que je veux
+- stp c'est faux c'est pas bon
+- c'est pas ça
+- s'il te plait pas vraiment non ce n'est pas ce que j'ai cherché
+- pas vraiment s'il vous plait je ne voulais pas ça
+- nope stp je voulais pas dire ça
+- c'est faux
+- incorrecte s'il te plait c'est pas ça
+- no
+- stp incorrecte c'est faux
+- incorrect svp c'est faux
+- c'est faux je voulais pas dire ça
+- nope
+- s'il te plait no c'est faux
+- incorrect s'il te plait ce n'est pas ce que je veux
+- stp nope c'est pas correcte
+- non stp c'est faux
+- incorrecte s'il vous plait ce n'est pas correcte
+- non c'est pas bon
+- pas vraiment non s'il vous plait je ne voulais pas ça
+- nope svp
+- svp pas vraiment c'est pas ça
+- non
+- je ne voulais pas ça
+- s'il vous plait pas vraiment c'est pas bon
+- c'est faux c'est pas correcte
+- svp pas vraiment c'est pas correcte
+- ce n'est pas correcte
+- s'il te plait incorrecte c'est faux
+- incorrect je ne voulais pas ça
+- stp pas vraiment c'est pas bon
+- no ce n'est pas ce que j'ai cherché
+- svp c'est faux c'est pas okay
+- non s'il vous plait ce n'est pas correcte
+- pas vraiment non c'est faux
+- ce n'est pas ce que j'ai cherché
+- svp nope ce n'est pas correcte
+- s'il te plait incorrecte c'est pas ça
+- ce n'est pas ce que je veux
+- pas vraiment ce n'est pas ce que j'ai cherché
+- non s'il te plait c'est faux
+- s'il vous plait incorrect ce n'est pas correcte
+- pas vraiment non c'est pas okay
+- incorrecte s'il vous plait je ne voulais pas ça
+- nope s'il vous plait c'est pas correcte
+- s'il vous plait c'est faux c'est faux
+- incorrecte svp je voulais pas dire ça
+- no stp
+- pas vraiment stp c'est pas ça
+
+## intent:remerciement
+- merci
+- ça fait plaisir merci
+- encore merci
+
+## intent:salutation
+- hey
+- morning comment les choses se passent?
+- hey good night quoi de neuf
+- bonjour comment tu vas
+- hey good day
+- hey good morning
+- bonjour
+- salut good morning quoi de neuf
+- bonjour good day ça va
+- salut greetings ça va
+- salut good morning comment ça va
+- salut good morning ça va
+- salut morning es tu la
+- salut good night are you around?
+- bonjour good day are you around?
+- hey good morning quoi de neuf
+- salut
+- hey good afternoon whats up
+- good afternoon comment les choses se passent?
+- good day are you around?
+- bonjour good day comment les choses se passent?
+- salut good morning comment tu vas
+- salut greetings comment ça va
+- bonjour good afternoon whats up
+- salut morning quoi de neuf
+- salut good morning are you around?
+- bonjour good day comment ça va
+- hey greetings es tu la
+- good morning whats up
+- bonjour good morning comment tu vas
+- hey good morning ça va
+- bonjour good night comment les choses se passent?
+- hey morning whats up
+- greetings are you around?
+- salut morning êtes vous la?
+- hey morning comment les choses se passent?
+- good afternoon ça va
+- bonjour greetings comment ça va
+- salut greetings whats up
+- good day ça va
+- hey morning comment tu vas
+- salut good night whats up
+- bonjour greetings quoi de neuf
+- hey good afternoon êtes vous la?
+- good afternoon comment ça va
+- bonjour morning comment les choses se passent?
+- hey greetings
+- hey good night
+- salut good afternoon comment ça va
+- salut good night comment les choses se passent?
+
+## intent:trouver_conso
+- Pourrais-je avoir la consommation de mon [serveur](equipement) 
+- Pourrais-je avoir  consommation par mon [serveur](equipement) [S00VL](nom_equipement)
+- DOnne moi la conso du [serveur](equipement) [S00VL](nom_equipement)
+- Quelle est la place disponible de mon [serveur](equipement)?
+- Donne moi les informations sur le [serveur](equipement) [S00VL]
+- Quel est la consomation du [firewall](equipement) [f011](nom_equipement)?
+- Quelle est la consommation du [serveur](equipement) [S00VL](nom_equipement) stp?

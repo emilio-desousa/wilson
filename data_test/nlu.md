@@ -1,0 +1,521 @@
+## intent:adieu
+- chau
+- au revoir merci à toi
+- adieu
+- j'y vais au revoir
+- au revoir
+- je vous reparle plus tard salut
+- adieu merci à toi
+- je vous reparle plus tard adieu
+- j'y vais adios
+- je pars salut
+- a la prochaine au revoir
+- a la prochaine salut
+- je dois y aller bye
+- goodbye
+- merci au revoir
+- bye merci
+- merci adieu
+- adios
+- bye merci à toi
+- chao
+- je te reparle plus tard goodbye
+- je te reparle plus tard adios
+- je pars adios
+- je pars adieu
+- j'y vais chau
+- merci à toi goodbye
+- je dois y aller chao
+- merci à toi adieu
+- merci salut
+- chao merci
+- salut merci à toi
+- je pars au revoir
+- je dois y aller adieu
+- j'y vais salut
+- a la prochaine
+- je vous reparle plus tard chau
+- je te reparle plus tard au revoir
+- je dois y aller goodbye
+- chau merci
+- au revoir merci
+- je pars bye
+- je dois y aller adios
+- a la prochaine bye
+- je te reparle plus tard bye
+- je te reparle plus tard chao
+- j'y vais chao
+- je pars chao
+- chau merci à toi
+- je dois y aller au revoir
+- je dois y aller
+
+## intent:affirmatif
+- d'accord bon affirmatif
+- bon je suis okay avec ça
+- ça semble bon vous m'avez compris correct
+- yep je suis okay avec ça merci à toi
+- ça semble bon c'est ce que je veux oui
+- oui monsieur vous m'avez compris oui
+- ça semble bon
+- correct c'est correct d'accord
+- oui monsieur bon oui monsieur
+- oui je le veux oui
+- ça semble bon vrai merci
+- correct
+- affirmatif c'est ce que je veux oui
+- affirmatif vous m'avez compris ça semble bon
+- vrai c'est bon
+- oui oui monsieur merci à toi
+- oui monsieur
+- affirmatif okay yep
+- je le veux d'accord
+- oui monsieur vrai merci à toi
+- d'accord vous m'avez compris yep
+- affirmatif yep merci à toi
+- je suis okay avec ça c'est correct vrai
+- ça semble bon okay je suis okay avec ça
+- ça semble bon okay oui monsieur
+- ça semble bon c'est bon je suis okay avec ça
+- oui monsieur tu m'as compris d'accord
+- je suis okay avec ça
+- oui
+- je suis okay avec ça vrai merci à toi
+- yep je le veux oui
+- je suis okay avec ça c'est ce que je veux correct
+- correct yep
+- je suis okay avec ça c'est bon correct
+- je suis okay avec ça ça semble bon merci
+- yep tu m'as compris correct
+- correct c'est ce que je veux je suis okay avec ça
+- correct c'est ce que je veux oui monsieur
+- yep je le veux je suis okay avec ça
+- oui monsieur c'est bon affirmatif
+- ça semble bon c'est correct yep
+- correct affirmatif merci à toi
+- affirmatif c'est ce que je veux
+- oui c'est ce que je veux affirmatif
+- oui c'est bon ça semble bon
+- correct bon oui monsieur
+- oui yep merci
+- yep c'est correct ça semble bon
+- ça semble bon stp
+- oui monsieur vous m'avez compris oui monsieur
+
+## intent:inform
+- donne moi [reseau](type_conso) merci à toi
+- [S00V09957607](nom_equipement)
+- donne moi [reseau](type_conso) merci
+- [RAM](type_conso) stp
+- donne moi [firewall](equipement)
+- [Application](equipement) stp
+- [firewall](equipement) stp
+- aide moi à trouver [Application](equipement) merci à toi
+- [Application](equipement)
+- [firewall](equipement)
+- aide moi à trouver [S00V09957607](nom_equipement) merci
+- [AP08773](nom_equipement)
+- [S00V09957607](nom_equipement) stp
+- donne moi [CHASSIS](equipement)
+- [stockage](type_conso)
+- [S00VL9953894](nom_equipement) svp
+- [RAM](type_conso)
+- [Appli](equipement)
+- donne moi [AP08772](nom_equipement) merci
+- aide moi à trouver [AP08772](nom_equipement)
+- je cherche [S00V09959946](nom_equipement) merci à toi
+- aide moi à trouver [S00VL9953894](nom_equipement) merci
+- je cherche [CHASSIS](equipement) merci à toi
+- donne moi [Appli](equipement) merci
+- aide moi à trouver [S00V09957607](nom_equipement)
+- trouve moi [CHASSIS](equipement) merci à toi
+- je cherche [CHASSIS](equipement) merci
+- [disque](type_conso)
+- [Appli](equipement) stp
+- [RAM](type_conso) s'il vous plait
+- aide moi à trouver [reseau](type_conso) merci à toi
+- donne moi [reseau](type_conso)
+- je cherche [CPU](type_conso) merci à toi
+- [CHASSIS](equipement)
+- je cherche [Appli](equipement)
+- je cherche [Serveur](equipement) merci à toi
+- [Appli](equipement) svp
+- je cherche [S00VL9953895](nom_equipement)
+- aide moi à trouver [reseau](type_conso) merci
+- trouve moi [RAM](type_conso) merci à toi
+- trouve moi [reseau](type_conso) merci à toi
+- aide moi à trouver [Serveur](equipement) merci
+- [reseau](type_conso) s'il te plait
+- trouve moi [S00VL9953894](nom_equipement)
+- [CHASSIS](equipement) s'il te plait
+- [S00V09957607](nom_equipement) s'il te plait
+- [firewall](equipement) s'il te plait
+- aide moi à trouver [Appli](equipement) merci à toi
+- je cherche [S00V09957607](nom_equipement)
+- trouve moi [stockage](type_conso) merci à toi
+- trouve moi [AP08773](nom_equipement)
+- [S00VL9953894](nom_equipement)
+- je cherche [disque](type_conso)
+- [disque](type_conso) s'il vous plait
+- je cherche [RAM](type_conso) merci à toi
+- trouve moi [AP08772](nom_equipement)
+- je cherche [AP08772](nom_equipement) merci à toi
+- je cherche [reseau](type_conso) merci à toi
+- je cherche [reseau](type_conso) merci
+- donne moi [Serveur](equipement)
+- trouve moi [Appli](equipement) merci
+- donne moi [firewall](equipement) merci à toi
+- [Serveur](equipement) stp
+- [S00VL9953895](nom_equipement) s'il te plait
+- trouve moi [stockage](type_conso)
+- je cherche [S00V09959946](nom_equipement)
+- trouve moi [CPU](type_conso) merci à toi
+- je cherche [RAM](type_conso) merci
+- [S00V09959946](nom_equipement) svp
+- trouve moi [RAM](type_conso) merci
+- [S00VL9953895](nom_equipement) stp
+- trouve moi [firewall](equipement) merci
+- je cherche [S00VL9953894](nom_equipement)
+- [AP08773](nom_equipement) s'il te plait
+- je cherche [Application](equipement) merci
+- aide moi à trouver [AP08773](nom_equipement)
+- je cherche [firewall](equipement) merci à toi
+- [RAM](type_conso) svp
+- donne moi [CPU](type_conso) merci à toi
+- [S00V09959946](nom_equipement) s'il te plait
+- trouve moi [S00VL9953894](nom_equipement) merci
+- aide moi à trouver [S00VL9953895](nom_equipement) merci
+- aide moi à trouver [CPU](type_conso)
+- je cherche [Appli](equipement) merci
+- je cherche [AP08772](nom_equipement)
+- [reseau](type_conso) stp
+- donne moi [Appli](equipement) merci à toi
+- donne moi [stockage](type_conso) merci à toi
+- aide moi à trouver [AP08773](nom_equipement) merci
+- je cherche [S00V09957607](nom_equipement) merci à toi
+- aide moi à trouver [S00V09959946](nom_equipement) merci
+- trouve moi [S00V09957607](nom_equipement) merci à toi
+- [Appli](equipement) s'il te plait
+- je cherche [Application](equipement) merci à toi
+- [disque](type_conso) stp
+- trouve moi [Appli](equipement) merci à toi
+- je cherche [disque](type_conso) merci
+- aide moi à trouver [RAM](type_conso) merci
+- [AP08773](nom_equipement) svp
+- [CPU](type_conso) s'il te plait
+
+## intent:negatif
+- pas vraiment non s'il vous plait
+- s'il te plait incorrect ce n'est pas ce que je veux
+- stp c'est faux c'est pas bon
+- c'est pas ça
+- s'il te plait pas vraiment non ce n'est pas ce que j'ai cherché
+- pas vraiment s'il vous plait je ne voulais pas ça
+- nope stp je voulais pas dire ça
+- c'est faux
+- incorrecte s'il te plait c'est pas ça
+- no
+- stp incorrecte c'est faux
+- incorrect svp c'est faux
+- c'est faux je voulais pas dire ça
+- nope
+- s'il te plait no c'est faux
+- incorrect s'il te plait ce n'est pas ce que je veux
+- stp nope c'est pas correcte
+- non stp c'est faux
+- incorrecte s'il vous plait ce n'est pas correcte
+- non c'est pas bon
+- pas vraiment non s'il vous plait je ne voulais pas ça
+- nope svp
+- svp pas vraiment c'est pas ça
+- non
+- je ne voulais pas ça
+- s'il vous plait pas vraiment c'est pas bon
+- c'est faux c'est pas correcte
+- svp pas vraiment c'est pas correcte
+- ce n'est pas correcte
+- s'il te plait incorrecte c'est faux
+- incorrect je ne voulais pas ça
+- stp pas vraiment c'est pas bon
+- no ce n'est pas ce que j'ai cherché
+- svp c'est faux c'est pas okay
+- non s'il vous plait ce n'est pas correcte
+- pas vraiment non c'est faux
+- ce n'est pas ce que j'ai cherché
+- svp nope ce n'est pas correcte
+- s'il te plait incorrecte c'est pas ça
+- ce n'est pas ce que je veux
+- pas vraiment ce n'est pas ce que j'ai cherché
+- non s'il te plait c'est faux
+- s'il vous plait incorrect ce n'est pas correcte
+- pas vraiment non c'est pas okay
+- incorrecte s'il vous plait je ne voulais pas ça
+- nope s'il vous plait c'est pas correcte
+- s'il vous plait c'est faux c'est faux
+- incorrecte svp je voulais pas dire ça
+- no stp
+- pas vraiment stp c'est pas ça
+
+## intent:remerciement
+- merci
+- ça fait plaisir merci
+- encore merci
+
+## intent:salutation
+- hey
+- morning comment les choses se passent?
+- hey good night quoi de neuf
+- bonjour comment tu vas
+- hey good day
+- hey good morning
+- bonjour
+- salut good morning quoi de neuf
+- bonjour good day ça va
+- salut greetings ça va
+- salut good morning comment ça va
+- salut good morning ça va
+- salut morning es tu la
+- salut good night are you around?
+- bonjour good day are you around?
+- hey good morning quoi de neuf
+- salut
+- hey good afternoon whats up
+- good afternoon comment les choses se passent?
+- good day are you around?
+- bonjour good day comment les choses se passent?
+- salut good morning comment tu vas
+- salut greetings comment ça va
+- bonjour good afternoon whats up
+- salut morning quoi de neuf
+- salut good morning are you around?
+- bonjour good day comment ça va
+- hey greetings es tu la
+- good morning whats up
+- bonjour good morning comment tu vas
+- hey good morning ça va
+- bonjour good night comment les choses se passent?
+- hey morning whats up
+- greetings are you around?
+- salut morning êtes vous la?
+- hey morning comment les choses se passent?
+- good afternoon ça va
+- bonjour greetings comment ça va
+- salut greetings whats up
+- good day ça va
+- hey morning comment tu vas
+- salut good night whats up
+- bonjour greetings quoi de neuf
+- hey good afternoon êtes vous la?
+- good afternoon comment ça va
+- bonjour morning comment les choses se passent?
+- hey greetings
+- hey good night
+- salut good afternoon comment ça va
+- salut good night comment les choses se passent?
+
+## intent:trouver_conso
+- Pourrais-je avoir la consommation de mon [serveur](equipement) 
+- Pourrais-je avoir la [RAM](type_conso) consommée par mon [serveur](equipement) [S00V09959946](nom_equipement)
+- Quelle est la place disponible de mon [serveur](equipement)?
+- Donne moi les informations sur le [serveur](equipement) [S00VL0938995]
+- Quel est la consomation du [firewall](equipement) ?
+- salut stp aide moi à trouver consommation [disque](type_conso) [Serveur](equipement) merci
+- consommation [RAM](type_conso) [CHASSIS](equipement) [S00V09959946](nom_equipement)
+- conso [CPU](type_conso) [Appli](equipement) [S00V09959946](nom_equipement)
+- salut svp consommation [stockage](type_conso) [Application](equipement) [S00VL9953895](nom_equipement)
+- salut s'il vous plait donne moi consommation [stockage](type_conso) [Appli](equipement) [S00VL9953894](nom_equipement) merci à toi
+- salut stp trouve moi conso [disque](type_conso) [firewall](equipement) merci
+- consommation [stockage](type_conso) [firewall](equipement) [AP08772](nom_equipement)
+- consommation [CPU](type_conso) [Serveur](equipement) [S00VL9953895](nom_equipement)
+- salut svp conso [Appli](equipement) merci à toi
+- svp aide moi à trouver conso [reseau](type_conso) [CHASSIS](equipement) merci
+- svp je cherche consommation [disque](type_conso) [Serveur](equipement) [S00VL9953894](nom_equipement) merci à toi
+- conso [reseau](type_conso) [Serveur](equipement) [S00V09957607](nom_equipement)
+- conso [disque](type_conso) [firewall](equipement) [AP08772](nom_equipement)
+- salut stp donne moi conso [stockage](type_conso) [Appli](equipement) merci à toi
+- s'il vous plait trouve moi conso [stockage](type_conso) [Serveur](equipement)
+- salut s'il te plait aide moi à trouver consommation [CPU](type_conso) [Serveur](equipement) merci
+- stp donne moi conso [stockage](type_conso) [CHASSIS](equipement) [S00V09959946](nom_equipement) merci
+- consommation [stockage](type_conso) [firewall](equipement) [S00VL9953894](nom_equipement)
+- consommation [RAM](type_conso) [Serveur](equipement) [S00VL9953894](nom_equipement)
+- s'il vous plait trouve moi conso [reseau](type_conso) [Serveur](equipement) [S00VL9953895](nom_equipement) merci
+- salut stp donne moi conso [Serveur](equipement) merci
+- salut stp je cherche conso [Appli](equipement) merci
+- salut s'il vous plait trouve moi conso [disque](type_conso) [Serveur](equipement) [S00VL9953894](nom_equipement) merci
+- salut svp trouve moi conso [CPU](type_conso) [Serveur](equipement) merci
+- salut trouve moi consommation [Application](equipement)
+- aide moi à trouver conso [Appli](equipement) merci
+- salut aide moi à trouver conso [stockage](type_conso) [Application](equipement) merci à toi
+- svp donne moi conso [disque](type_conso) [Serveur](equipement) merci à toi
+- conso [reseau](type_conso) [firewall](equipement) [S00V09957607](nom_equipement)
+- consommation [stockage](type_conso) [CHASSIS](equipement) [AP08773](nom_equipement)
+- salut s'il te plait donne moi conso [CHASSIS](equipement)
+- salut svp trouve moi consommation [disque](type_conso) [Application](equipement) [S00VL9953895](nom_equipement) merci
+- donne moi conso [RAM](type_conso) [CHASSIS](equipement) [S00V09959946](nom_equipement) merci
+- salut svp je cherche consommation [firewall](equipement)
+- salut stp conso [stockage](type_conso) [firewall](equipement) merci à toi
+- salut stp donne moi consommation [Serveur](equipement)
+- salut stp trouve moi conso [Serveur](equipement) merci à toi
+- s'il te plait donne moi consommation [disque](type_conso) [Application](equipement) [AP08772](nom_equipement) merci
+- salut stp donne moi consommation [disque](type_conso) [Application](equipement) [S00V09957607](nom_equipement) merci à toi
+- consommation [RAM](type_conso) [Serveur](equipement) [S00V09959946](nom_equipement)
+- salut stp aide moi à trouver consommation [Appli](equipement)
+- s'il te plait je cherche conso [reseau](type_conso) [Application](equipement) merci à toi
+- stp donne moi conso [reseau](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement)
+- s'il vous plait aide moi à trouver conso [disque](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement)
+- stp je cherche consommation [CPU](type_conso) [Serveur](equipement) merci à toi
+- salut s'il te plait conso [Appli](equipement) merci
+- svp conso [disque](type_conso) [Appli](equipement) [S00V09957607](nom_equipement) merci
+- stp donne moi conso [Appli](equipement) merci à toi
+- conso [reseau](type_conso) [Application](equipement) [S00VL9953894](nom_equipement)
+- salut svp je cherche consommation [RAM](type_conso) [Serveur](equipement) [S00V09959946](nom_equipement) merci
+- donne moi conso [stockage](type_conso) [CHASSIS](equipement) [S00V09959946](nom_equipement)
+- salut stp donne moi conso [firewall](equipement) merci à toi
+- salut s'il vous plait donne moi consommation [disque](type_conso) [Appli](equipement)
+- s'il vous plait je cherche conso [RAM](type_conso) [CHASSIS](equipement) merci à toi
+- stp conso [stockage](type_conso) [Serveur](equipement) [S00VL9953894](nom_equipement)
+- stp consommation [CHASSIS](equipement)
+- salut donne moi consommation [reseau](type_conso) [CHASSIS](equipement)
+- salut s'il te plait donne moi consommation [CHASSIS](equipement) merci
+- consommation [RAM](type_conso) [firewall](equipement) [AP08772](nom_equipement)
+- svp donne moi conso [RAM](type_conso) [Appli](equipement)
+- salut stp consommation [stockage](type_conso) [Serveur](equipement) [AP08773](nom_equipement) merci à toi
+- salut s'il te plait donne moi conso [CPU](type_conso) [firewall](equipement) [S00V09957607](nom_equipement) merci à toi
+- donne moi conso [Serveur](equipement) merci à toi
+- salut s'il te plait aide moi à trouver conso [disque](type_conso) [Appli](equipement) [AP08773](nom_equipement)
+- stp trouve moi consommation [disque](type_conso) [Appli](equipement) merci
+- s'il vous plait donne moi consommation [disque](type_conso) [firewall](equipement) [S00V09959946](nom_equipement) merci
+- salut s'il te plait aide moi à trouver consommation [stockage](type_conso) [firewall](equipement)
+- salut svp je cherche consommation [RAM](type_conso) [Application](equipement) merci à toi
+- conso [RAM](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement)
+- consommation [RAM](type_conso) [Application](equipement) [S00V09957607](nom_equipement)
+- salut stp je cherche conso [reseau](type_conso) [CHASSIS](equipement) [S00VL9953895](nom_equipement) merci
+- s'il te plait consommation [RAM](type_conso) [firewall](equipement) merci à toi
+- salut s'il te plait je cherche conso [CHASSIS](equipement) merci à toi
+- trouve moi consommation [reseau](type_conso) [Serveur](equipement) [AP08773](nom_equipement)
+- s'il vous plait aide moi à trouver consommation [stockage](type_conso) [Application](equipement) merci
+- consommation [CPU](type_conso) [Serveur](equipement) [S00V09957607](nom_equipement)
+- consommation [stockage](type_conso) [Serveur](equipement) [S00VL9953895](nom_equipement) merci à toi
+- salut s'il te plait je cherche conso [CPU](type_conso) [CHASSIS](equipement) merci
+- consommation [disque](type_conso) [Appli](equipement) [AP08772](nom_equipement)
+- conso [reseau](type_conso) [Application](equipement) [AP08773](nom_equipement)
+- salut s'il vous plait trouve moi consommation [disque](type_conso) [CHASSIS](equipement) [S00VL9953895](nom_equipement) merci
+- salut stp aide moi à trouver consommation [CHASSIS](equipement) merci
+- salut s'il te plait je cherche conso [CPU](type_conso) [Serveur](equipement) merci
+- salut s'il te plait trouve moi conso [disque](type_conso) [Application](equipement) [S00V09959946](nom_equipement) merci
+- s'il vous plait aide moi à trouver conso [RAM](type_conso) [Appli](equipement) merci à toi
+- s'il te plait aide moi à trouver conso [CPU](type_conso) [Appli](equipement) [S00VL9953894](nom_equipement)
+- conso [reseau](type_conso) [Application](equipement) [S00V09959946](nom_equipement)
+- salut s'il vous plait consommation [CPU](type_conso) [firewall](equipement) merci
+- salut stp conso [CPU](type_conso) [Appli](equipement) merci à toi
+- svp je cherche conso [disque](type_conso) [firewall](equipement) [S00VL9953895](nom_equipement) merci
+- s'il te plait trouve moi conso [stockage](type_conso) [firewall](equipement) merci à toi
+- salut s'il vous plait trouve moi consommation [CPU](type_conso) [Serveur](equipement) [S00VL9953895](nom_equipement) merci
+- salut stp aide moi à trouver consommation [firewall](equipement)
+- salut aide moi à trouver consommation [firewall](equipement)
+- salut stp je cherche consommation [reseau](type_conso) [Application](equipement) [S00V09957607](nom_equipement) merci à toi
+- salut svp aide moi à trouver consommation [CPU](type_conso) [firewall](equipement) [AP08773](nom_equipement) merci
+- salut s'il vous plait donne moi conso [disque](type_conso) [Appli](equipement) merci à toi
+- salut stp trouve moi consommation [disque](type_conso) [firewall](equipement) merci
+- conso [CPU](type_conso) [firewall](equipement) [S00V09957607](nom_equipement)
+- salut s'il vous plait trouve moi consommation [reseau](type_conso) [firewall](equipement) [AP08772](nom_equipement) merci
+- s'il te plait donne moi consommation [CPU](type_conso) [firewall](equipement) merci
+- consommation [disque](type_conso) [Application](equipement) [S00V09959946](nom_equipement)
+- salut s'il vous plait consommation [RAM](type_conso) [Appli](equipement) [S00VL9953895](nom_equipement) merci à toi
+- salut s'il vous plait consommation [CPU](type_conso) [Appli](equipement) [S00VL9953895](nom_equipement) merci
+- conso [stockage](type_conso) [Serveur](equipement) [AP08773](nom_equipement)
+- salut svp conso [disque](type_conso) [CHASSIS](equipement) [S00VL9953895](nom_equipement) merci
+- salut je cherche consommation [reseau](type_conso) [Serveur](equipement) [AP08772](nom_equipement) merci
+- salut svp consommation [disque](type_conso) [Application](equipement) [AP08773](nom_equipement) merci
+- consommation [stockage](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement) merci à toi
+- salut aide moi à trouver conso [Appli](equipement)
+- salut stp je cherche consommation [disque](type_conso) [Serveur](equipement) [S00VL9953895](nom_equipement) merci
+- stp aide moi à trouver conso [CPU](type_conso) [firewall](equipement)
+- consommation [RAM](type_conso) [Appli](equipement) [S00V09959946](nom_equipement)
+- svp je cherche conso [reseau](type_conso) [Application](equipement) [S00VL9953895](nom_equipement) merci
+- stp donne moi consommation [reseau](type_conso) [Appli](equipement) [AP08773](nom_equipement)
+- consommation [stockage](type_conso) [Application](equipement) [S00VL9953895](nom_equipement)
+- salut svp je cherche conso [Appli](equipement)
+- salut donne moi conso [disque](type_conso) [firewall](equipement)
+- s'il te plait consommation [disque](type_conso) [Application](equipement) merci à toi
+- consommation [disque](type_conso) [CHASSIS](equipement) [AP08773](nom_equipement)
+- salut svp aide moi à trouver conso [RAM](type_conso) [firewall](equipement) [S00VL9953894](nom_equipement) merci
+- s'il te plait trouve moi consommation [CPU](type_conso) [Application](equipement) [S00VL9953894](nom_equipement) merci
+- salut svp aide moi à trouver conso [reseau](type_conso) [Application](equipement)
+- salut s'il te plait consommation [Application](equipement)
+- salut svp aide moi à trouver conso [CPU](type_conso) [Application](equipement) [S00VL9953895](nom_equipement) merci à toi
+- s'il te plait trouve moi conso [firewall](equipement) merci à toi
+- s'il te plait trouve moi conso [disque](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement) merci
+- s'il te plait donne moi consommation [stockage](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement)
+- consommation [RAM](type_conso) [firewall](equipement) [S00V09959946](nom_equipement)
+- salut s'il te plait je cherche consommation [stockage](type_conso) [Serveur](equipement) [S00VL9953895](nom_equipement) merci à toi
+- s'il vous plait conso [disque](type_conso) [Appli](equipement) merci à toi
+- salut svp donne moi conso [reseau](type_conso) [CHASSIS](equipement) [S00VL9953895](nom_equipement)
+- salut s'il vous plait conso [reseau](type_conso) [Appli](equipement) merci à toi
+- conso [CPU](type_conso) [Appli](equipement) [AP08773](nom_equipement)
+- je cherche conso [RAM](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement)
+- conso [CPU](type_conso) [CHASSIS](equipement) [S00VL9953894](nom_equipement)
+- salut s'il te plait je cherche consommation [Serveur](equipement) merci
+- consommation [reseau](type_conso) [Application](equipement) [S00V09959946](nom_equipement) merci
+- salut s'il vous plait trouve moi conso [disque](type_conso) [Serveur](equipement) [S00V09959946](nom_equipement) merci
+- s'il te plait donne moi consommation [reseau](type_conso) [CHASSIS](equipement) [S00V09957607](nom_equipement) merci à toi
+- salut svp je cherche consommation [CPU](type_conso) [Application](equipement)
+- stp trouve moi consommation [stockage](type_conso) [CHASSIS](equipement) [AP08773](nom_equipement) merci
+- consommation [RAM](type_conso) [firewall](equipement) [S00VL9953895](nom_equipement)
+- s'il vous plait donne moi conso [RAM](type_conso) [Appli](equipement)
+- salut trouve moi consommation [stockage](type_conso) [CHASSIS](equipement)
+- s'il te plait je cherche conso [reseau](type_conso) [CHASSIS](equipement) merci
+- salut s'il vous plait donne moi conso [CPU](type_conso) [firewall](equipement)
+- svp je cherche consommation [Appli](equipement) merci à toi
+- salut s'il vous plait aide moi à trouver conso [Application](equipement)
+- salut stp consommation [reseau](type_conso) [CHASSIS](equipement)
+- consommation [disque](type_conso) [Appli](equipement) [S00V09959946](nom_equipement)
+- salut je cherche conso [stockage](type_conso) [firewall](equipement) [S00V09959946](nom_equipement) merci
+- s'il te plait je cherche consommation [stockage](type_conso) [CHASSIS](equipement) [S00V09959946](nom_equipement) merci
+- salut donne moi consommation [CHASSIS](equipement) merci à toi
+- s'il te plait aide moi à trouver conso [disque](type_conso) [CHASSIS](equipement) merci
+- salut stp aide moi à trouver conso [Serveur](equipement)
+- conso [reseau](type_conso) [firewall](equipement) [AP08773](nom_equipement)
+- s'il vous plait donne moi conso [stockage](type_conso) [firewall](equipement) [S00V09959946](nom_equipement) merci
+- s'il vous plait donne moi consommation [stockage](type_conso) [Application](equipement) [S00V09959946](nom_equipement)
+- consommation [reseau](type_conso) [CHASSIS](equipement) [S00V09959946](nom_equipement)
+- svp donne moi conso [stockage](type_conso) [Application](equipement) [S00V09959946](nom_equipement) merci
+- salut s'il te plait consommation [RAM](type_conso) [Application](equipement) [S00VL9953895](nom_equipement)
+- salut s'il te plait donne moi consommation [reseau](type_conso) [CHASSIS](equipement) merci
+- s'il vous plait aide moi à trouver conso [disque](type_conso) [CHASSIS](equipement) merci
+- salut stp je cherche consommation [firewall](equipement)
+- salut je cherche conso [Application](equipement) merci à toi
+- salut s'il vous plait trouve moi conso [stockage](type_conso) [Appli](equipement) [S00VL9953894](nom_equipement)
+- s'il vous plait donne moi conso [RAM](type_conso) [Appli](equipement) [S00VL9953894](nom_equipement) merci
+- salut aide moi à trouver conso [CPU](type_conso) [Application](equipement)
+- salut svp donne moi consommation [CPU](type_conso) [Serveur](equipement) [S00V09957607](nom_equipement) merci à toi
+- salut s'il te plait conso [disque](type_conso) [CHASSIS](equipement) merci
+- s'il te plait consommation [reseau](type_conso) [firewall](equipement) [S00V09959946](nom_equipement)
+- salut s'il te plait consommation [disque](type_conso) [Appli](equipement) merci à toi
+- svp aide moi à trouver consommation [reseau](type_conso) [Application](equipement) merci à toi
+- salut trouve moi conso [RAM](type_conso) [CHASSIS](equipement) [AP08773](nom_equipement) merci à toi
+- svp je cherche conso [CPU](type_conso) [firewall](equipement) merci
+- s'il vous plait donne moi consommation [reseau](type_conso) [CHASSIS](equipement) [S00V09959946](nom_equipement)
+- salut s'il vous plait je cherche consommation [RAM](type_conso) [CHASSIS](equipement) merci à toi
+- salut s'il vous plait consommation [disque](type_conso) [firewall](equipement) merci à toi
+- je cherche consommation [RAM](type_conso) [firewall](equipement) [S00V09957607](nom_equipement)
+- s'il vous plait trouve moi consommation [stockage](type_conso) [Serveur](equipement) [S00VL9953895](nom_equipement) merci à toi
+- salut svp donne moi consommation [reseau](type_conso) [CHASSIS](equipement) merci
+- conso [reseau](type_conso) [Serveur](equipement) [AP08773](nom_equipement)
+- salut svp donne moi consommation [reseau](type_conso) [Application](equipement) merci à toi
+- salut svp conso [CPU](type_conso) [Application](equipement) [AP08773](nom_equipement)
+- donne moi consommation [stockage](type_conso) [Appli](equipement) [AP08773](nom_equipement) merci à toi
+- salut svp conso [disque](type_conso) [Serveur](equipement) merci
+- stp aide moi à trouver conso [Appli](equipement)
+- salut stp consommation [disque](type_conso) [Appli](equipement) merci à toi
+- salut stp aide moi à trouver conso [firewall](equipement) merci
+- svp donne moi conso [disque](type_conso) [Appli](equipement) [AP08772](nom_equipement)
+- stp donne moi conso [disque](type_conso) [CHASSIS](equipement) merci
+- s'il vous plait donne moi conso [Application](equipement) merci à toi
+- salut aide moi à trouver consommation [stockage](type_conso) [Serveur](equipement) [S00VL9953894](nom_equipement) merci à toi
+- s'il vous plait aide moi à trouver conso [disque](type_conso) [Application](equipement) merci à toi
+- s'il vous plait consommation [RAM](type_conso) [Serveur](equipement) [AP08772](nom_equipement)
+- s'il te plait donne moi consommation [Appli](equipement)
+- consommation [RAM](type_conso) [firewall](equipement) [S00V09957607](nom_equipement)
+- s'il te plait je cherche conso [CHASSIS](equipement) merci à toi
+- je cherche consommation [Appli](equipement)

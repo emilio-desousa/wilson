@@ -44,7 +44,7 @@ class ConsoForm(FormAction):
     def required_slots(tracker: Tracker) -> List[Text]:
         """A list of required slots that the form has to fill"""
 
-        return ["type_conso", "equipement", "nom_equipement",]
+        return ["equipement", "nom_equipement",]
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
         """A dictionary to map required slots to
@@ -54,25 +54,12 @@ class ConsoForm(FormAction):
             or a list of them, where a first match will be picked"""
 
         return {
-            "type_conso": self.from_entity(entity="type_conso"),
             "equipement": self.from_entity(
                     entity="equipement", intent=["inform", "trouver_conso"]
                 ),
-            "nom_equipement": self.from_entity(entity="nom_equipement")
+            "nom_equipement": self.from_entity(entity="nom_equipement", intent=["inform", "trouver_conso"])
         }
 
-    # USED FOR DOCS: do not rename without updating in docs
-    @staticmethod
-    def type_conso_db() -> List[Text]:
-        """Database of supported type_conso"""
-
-        return [
-            "ram",
-            "cpu",
-            "stockage",
-            "disque",
-            "réseau"
-        ]
 
     # USED FOR DOCS: do not rename without updating in docs
     @staticmethod
@@ -96,27 +83,6 @@ class ConsoForm(FormAction):
         except ValueError:
             return False
 
-    # USED FOR DOCS: do not rename without updating in docs
-    def validate_type_conso(
-        self,
-        value: Text,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: Dict[Text, Any],
-    ) -> Dict[Text, Any]:
-        """Validate type_conso value."""
-        
-        if value.lower() == "appli":
-            value = "application"
-        if value.lower() in self.type_conso_db():
-            # validation succeeded, set the value of the "type_conso" slot to value
-            return {"type_conso": value}
-        else:
-            dispatcher.utter_message(template="utter_wrong_type_conso")
-            # validation failed, set this slot to None, meaning the
-            # user will be asked for the slot again
-            return {"type_conso": None}
-
     def validate_equipement(
         self,
         value: Text,
@@ -127,8 +93,8 @@ class ConsoForm(FormAction):
         """Validate equipement value."""
 
         if value.lower() in self.equipement_db():
-            # validation succeeded, set the value of the "type_conso" slot to value
-            return {"type_conso": value}
+            # validation succeeded, set the value of the "equipement" slot to value
+            return {"equipement": value}
         else:
             dispatcher.utter_message(template="utter_wrong_equipement")
             # validation failed, set slot to None

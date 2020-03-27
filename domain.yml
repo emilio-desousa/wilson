@@ -9,14 +9,10 @@ intents:
       use_entities: []
 
 entities:
-  - type_conso
   - equipement
   - nom_equipement
 
 slots:
-  type_conso:
-    type: unfeaturized
-    auto_fill: false
   equipement: 
     type: unfeaturized
     auto_fill: false
@@ -28,10 +24,7 @@ slots:
 
 responses:
   utter_salutation:
-  - text: "Salut!  Comment ça va?"
-
-  utter_ask_type_conso:
-  - text: "quel type de consommation?"
+  - text: "Salut!  Que puis-je faire pour vous?"
 
   utter_ask_equipement:
   - text: "quel equipement?"
@@ -47,7 +40,6 @@ responses:
 
   utter_slots_values:
     - text: "Je vais chercher une machine avec les paramètres suivants:\n
-             - type_conso: {type_conso}\n
              - equipement: {equipement}\n
              - nom_equipement: {nom_equipement}\n"
   
