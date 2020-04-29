@@ -1,0 +1,167 @@
+define
+
+# entities
+
+person sub entity,
+  plays customer,
+  key email,
+  has first-name,
+  has last-name,
+  has city,
+  has phone-number,
+  has gender;
+
+bank sub entity,
+  plays provider,
+  key name,
+  has country,
+  has headquarters,
+  has free-accounts,
+  has english-customer-service,
+  has english-website,
+  has english-mobile-app,
+  has free-worldwide-withdrawals,
+  has allowed-residents;
+
+account sub entity,
+  plays bank-account,
+  key account-number,
+  has opening-date,
+  has balance,
+  has account-type,
+  plays offer,
+  plays account-of-receiver,
+  plays account-of-creator;
+
+card sub entity,
+  plays bank-card,
+  key card-number,
+  has name-on-card,
+  has expiry-date,
+  has created-date;
+
+mapping sub entity,
+  has mapping-key,
+  has mapping-value;
+
+mention-mapping sub mapping;
+entity-type-mapping sub mapping;
+attribute-mapping sub mapping;
+
+# relationships
+
+contract sub relation,
+  relates customer,
+  relates offer,
+  relates provider,
+  key identifier,
+  has sign-date;
+
+transaction sub relation,
+  relates account-of-receiver,
+  relates account-of-creator,
+  key identifier,
+  has amount,
+  has reference,
+  has category,
+  has execution-date;
+
+represented-by sub relation,
+  relates bank-account,
+  relates bank-card,
+  key identifier;
+
+# attribute
+
+mapping-key sub attribute,
+  datatype string;
+
+mapping-value sub attribute,
+  datatype string;
+
+execution-date sub attribute,
+  datatype date;
+
+created-date sub attribute,
+  datatype date;
+
+expiry-date sub attribute,
+  datatype date;
+
+sign-date sub attribute,
+  datatype date;
+
+opening-date sub attribute,
+  datatype date;
+
+email sub attribute,
+  datatype string;
+
+name sub attribute,
+  datatype string;
+
+first-name sub attribute,
+  datatype string;
+
+last-name sub attribute,
+  datatype string;
+
+city sub attribute,
+  datatype string;
+
+headquarters sub attribute,
+  datatype string;
+
+balance sub attribute,
+  datatype double;
+
+account-number sub attribute,
+  datatype string;
+
+account-type sub attribute,
+  datatype string;
+
+card-number sub attribute,
+  datatype long;
+
+amount sub attribute,
+  datatype double;
+
+reference sub attribute,
+  datatype string;
+
+category sub attribute,
+  datatype string;
+
+phone-number sub attribute,
+  datatype string;
+
+gender sub attribute,
+  datatype string;
+
+country sub attribute,
+  datatype string;
+
+allowed-residents sub attribute,
+  datatype string;
+
+free-accounts sub attribute,
+  datatype boolean;
+
+english-customer-service sub attribute,
+  datatype boolean;
+
+english-website sub attribute,
+  datatype boolean;
+
+english-mobile-app sub attribute,
+  datatype boolean;
+
+free-worldwide-withdrawals sub attribute,
+  datatype boolean;
+
+identifier sub attribute,
+  datatype long;
+
+name-on-card sub attribute,
+  datatype string;

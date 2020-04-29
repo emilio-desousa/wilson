@@ -1,0 +1,281 @@
+define
+
+represented-by sub relation,
+  relates vm,
+  relates phys;
+
+est-dans sub relation,
+  relates vm,
+  relates app;
+
+compose sub relation,
+  relates phys,
+  relates archi;
+
+# entities
+
+logical sub entity,
+    plays vm,
+    key l_code,
+    has l_status,
+    has l_class,
+    has l_model,
+    has technical_context,
+    has l_name,
+    has line_of_business_user_level_2,
+    has line_of_business_user_level_1,
+    has upm,
+    has environment,
+    has meo,
+    has operated_perimetre,
+    has applicative_backup,
+    has system_backup,
+    has monitoring,
+    has adresse_ip,
+    has cloud,
+    has number_of_vcpu_measured,
+    has measured_storage,
+    has measured_memory,
+    has os_name,
+    has creation_date;
+
+physical sub entity,
+    plays phys,
+    key p_code,
+    has p_name,
+    has p_serial_number,
+    has p_status,
+    has owner_level_2,
+    has owner_level_1,
+    has p_class_1,
+    has p_class_2,
+    has physical_eqp_dest_source,
+    has p_model,
+    has manufacturer,
+    has supplier,
+    has delivery_date,
+    has first_power_up_date,
+    has project_name,
+    has simple_hosting,
+    has grid_name,
+    has site_name,
+    has room_name,
+    has typology,
+    has type_physical;
+
+application sub entity,
+    plays app,
+    key a_code,
+    has a_name,
+    has label_attached_business_line,
+    has label_attach_sub_business_line,
+    has reftec_last_update_date,
+    has status,
+    has local_site_bascule,
+    has remote_site_bascule,
+    has integrity,
+    has tracability,
+    has service_class,
+    has confidentiality,
+    has delivery_estate_production,
+    has implementation_business,
+    has continuity_level;
+
+architecture sub entity,
+    plays archi,
+    key ar_code,
+    has ar_name,
+    has ar_class;
+# 
+# attribute
+# 
+
+# logical
+
+l_code sub attribute,
+    datatype string;
+
+l_status sub attribute,
+    datatype string;
+
+l_class sub attribute,
+    datatype string;
+
+l_model sub attribute,
+    datatype string;
+
+technical_context sub attribute,
+    datatype string;
+
+l_name sub attribute,
+    datatype string;
+
+line_of_business_user_level_2 sub attribute,
+    datatype string;
+
+line_of_business_user_level_1 sub attribute,
+    datatype string;
+
+upm sub attribute,
+    datatype string;
+
+environment sub attribute,
+    datatype string;
+
+meo sub attribute,
+    datatype string;
+
+operated_perimetre sub attribute,
+    datatype string;
+
+applicative_backup sub attribute,
+    datatype string;
+
+system_backup sub attribute,
+    datatype string;
+
+monitoring sub attribute,
+    datatype string;
+
+adresse_ip sub attribute,
+    datatype string;
+
+cloud sub attribute,
+    datatype boolean;
+
+number_of_vcpu_measured sub attribute,
+    datatype long;
+
+measured_storage sub attribute,
+    datatype long;
+
+measured_memory sub attribute,
+    datatype long;
+
+os_name sub attribute,
+    datatype string;
+
+creation_date sub attribute,
+    datatype date;
+
+# physical 
+
+p_code sub attribute,
+    datatype string;
+
+p_name sub attribute,
+    datatype string;
+
+p_serial_number sub attribute,
+    datatype string;
+
+p_status sub attribute,
+    datatype string;
+
+owner_level_2 sub attribute,
+    datatype string;
+    
+owner_level_1 sub attribute,
+    datatype string;
+
+p_class_1 sub attribute,
+    datatype string;
+
+p_class_2 sub attribute,
+    datatype string;
+
+physical_eqp_dest_source sub attribute,
+    datatype string;
+
+p_model sub attribute,
+    datatype string;
+
+manufacturer sub attribute,
+    datatype string;
+
+supplier sub attribute,
+    datatype string;
+
+delivery_date sub attribute,
+    datatype date;
+
+first_power_up_date sub attribute,
+    datatype date;
+
+project_name sub attribute,
+    datatype string;
+
+simple_hosting sub attribute,
+    datatype string;
+
+grid_name sub attribute,
+    datatype string;
+
+site_name sub attribute,
+    datatype string;
+
+room_name sub attribute,
+    datatype string;
+
+typology sub attribute,
+    datatype string;
+
+type_physical sub attribute,
+    datatype string;
+
+# application
+
+a_code sub attribute,
+    datatype string;
+
+a_name sub attribute,
+    datatype string;
+
+label_attached_business_line sub attribute,
+    datatype string;
+
+label_attach_sub_business_line sub attribute,
+    datatype string;
+
+reftec_last_update_date sub attribute,
+    datatype date;
+
+status sub attribute,
+    datatype string;
+
+local_site_bascule sub attribute,
+    datatype string;
+
+remote_site_bascule sub attribute,
+    datatype string;
+
+integrity sub attribute,
+    datatype string;
+
+tracability sub attribute,
+    datatype string;
+
+service_class sub attribute,
+    datatype long;
+confidentiality sub attribute,
+    datatype string;
+
+delivery_estate_production sub attribute,
+    datatype string;
+
+implementation_business sub attribute,
+    datatype string;
+
+continuity_level sub attribute,
+    datatype string;
+
+# architecture
+
+ar_code sub attribute,
+    datatype string;
+
+ar_name sub attribute,
+    datatype string;
+
+ar_class sub attribute,
+    datatype string;
